@@ -1,7 +1,7 @@
 (function(){
 'use strict'; /*Prevents bleeding of global variables*/
 
-  angular.module('myFirstApp',[])
+  angular.module('MyFirstApp',[])
 
   .controller('MyFirstController', function($scope){
     //Properties defined on scope are available to view via ng-controller
